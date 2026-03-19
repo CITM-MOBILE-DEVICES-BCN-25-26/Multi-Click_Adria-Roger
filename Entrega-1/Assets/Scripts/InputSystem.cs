@@ -8,7 +8,6 @@ public class InputSystem : MonoBehaviour
 
     void Update()
     {
-        //detect when is pressed and when is released
         if(Input.GetKeyDown(KeyCode.Space))
         {
             OnButtonPressed?.Invoke();
